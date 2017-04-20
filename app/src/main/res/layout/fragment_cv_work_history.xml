@@ -1,0 +1,72 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.givenchdy.cvbuilder.cvbuilder.Main.CvWorkHistoryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/companyNameID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapCharacters"
+            android:layout_marginTop="0dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/edittextstyle"
+            android:hint="Company Name"/>
+
+
+        <EditText
+            android:id="@+id/positionID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapCharacters"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/edittextstyle"
+            android:hint="Position"/>
+
+        <EditText
+            android:id="@+id/DurationID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/edittextstyle"
+            android:hint="Duration"/>
+
+        <EditText
+            android:id="@+id/ResponsibilitiesID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:maxLines="10"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/boxedittext"
+            android:hint="Responsibilities"/>
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addNewCompanyID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center|bottom"
+        app:backgroundTint="@color/colorPrimaryDark"
+        android:background="@color/colorPrimaryDark"/>
+
+</android.support.design.widget.CoordinatorLayout>

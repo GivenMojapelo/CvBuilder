@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.givenchdy.cvbuilder.cvbuilder.Main.HomeActivity">
+
+
+    <LinearLayout
+        android:layout_gravity="top|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/resumeIconID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/resume_icon"/>
+
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/cvlistID"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:paddingTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content">
+    </ListView>
+
+    <Button
+        android:id="@+id/applyJobButtonID"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:text="Apply for Job"/>
+
+</FrameLayout>
